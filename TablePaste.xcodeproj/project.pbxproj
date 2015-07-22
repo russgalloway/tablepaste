@@ -6,18 +6,162 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D15F9E1D19BE0C60006A65A6 /* JFHotkeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F9E1C19BE0C60006A65A6 /* JFHotkeyManager.m */; };
+		D15F9E1F19BE0D07006A65A6 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15F9E1E19BE0D07006A65A6 /* Carbon.framework */; };
+		D209A73B135D5FCB0003DE4B /* StatusItemIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = D209A73A135D5FCB0003DE4B /* StatusItemIcon.png */; };
+		D2BDAEAD13561B6800AE0270 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BDAEAC13561B6800AE0270 /* Cocoa.framework */; };
+		D2BDAEB713561B6800AE0270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2BDAEB513561B6800AE0270 /* InfoPlist.strings */; };
+		D2BDAED513561C2800AE0270 /* TablePaste.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2BDAED013561C2800AE0270 /* TablePaste.xcdatamodeld */; };
+		D2BDAED613561C2800AE0270 /* TablePasteAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDAED313561C2800AE0270 /* TablePasteAppDelegate.m */; };
+		D2BDAEE01356218900AE0270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDAEDF1356218900AE0270 /* main.m */; };
+		D2BDAEEA135621E400AE0270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D2BDAEE2135621E400AE0270 /* Credits.rtf */; };
+		D2BDAEEB135621E400AE0270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2BDAEE4135621E400AE0270 /* InfoPlist.strings */; };
+		D2BDAEEC135621E400AE0270 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BDAEE6135621E400AE0270 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D15F9E1B19BE0C60006A65A6 /* JFHotkeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFHotkeyManager.h; sourceTree = "<group>"; };
+		D15F9E1C19BE0C60006A65A6 /* JFHotkeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFHotkeyManager.m; sourceTree = "<group>"; };
+		D15F9E1E19BE0D07006A65A6 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		D209A73A135D5FCB0003DE4B /* StatusItemIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = StatusItemIcon.png; path = ../StatusItemIcon.png; sourceTree = "<group>"; };
+		D2BDAEA813561B6800AE0270 /* TablePaste.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TablePaste.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2BDAEAC13561B6800AE0270 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D2BDAEAF13561B6800AE0270 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D2BDAEB013561B6800AE0270 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D2BDAEB113561B6800AE0270 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2BDAECE13561C2800AE0270 /* TablePaste-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TablePaste-Info.plist"; sourceTree = "<group>"; };
+		D2BDAECF13561C2800AE0270 /* TablePaste-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TablePaste-Prefix.pch"; sourceTree = "<group>"; };
+		D2BDAED113561C2800AE0270 /* TablePaste.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TablePaste.xcdatamodel; sourceTree = "<group>"; };
+		D2BDAED213561C2800AE0270 /* TablePasteAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablePasteAppDelegate.h; sourceTree = "<group>"; };
+		D2BDAED313561C2800AE0270 /* TablePasteAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablePasteAppDelegate.m; sourceTree = "<group>"; };
+		D2BDAEDF1356218900AE0270 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2BDAEE3135621E400AE0270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		D2BDAEE5135621E400AE0270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D2BDAEE7135621E400AE0270 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2BDAEA513561B6800AE0270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15F9E1F19BE0D07006A65A6 /* Carbon.framework in Frameworks */,
+				D2BDAEAD13561B6800AE0270 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		D209A736135D5D400003DE4B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D209A73A135D5FCB0003DE4B /* StatusItemIcon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D29A1E6013561A98009BDEF5 = {
 			isa = PBXGroup;
 			children = (
+				D2BDAEB213561B6800AE0270 /* TablePaste */,
+				D2BDAEAB13561B6800AE0270 /* Frameworks */,
+				D2BDAEA913561B6800AE0270 /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		D2BDAEA913561B6800AE0270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2BDAEA813561B6800AE0270 /* TablePaste.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2BDAEAB13561B6800AE0270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D15F9E1E19BE0D07006A65A6 /* Carbon.framework */,
+				D2BDAEAC13561B6800AE0270 /* Cocoa.framework */,
+				D2BDAEAE13561B6800AE0270 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2BDAEAE13561B6800AE0270 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2BDAEAF13561B6800AE0270 /* AppKit.framework */,
+				D2BDAEB013561B6800AE0270 /* CoreData.framework */,
+				D2BDAEB113561B6800AE0270 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D2BDAEB213561B6800AE0270 /* TablePaste */ = {
+			isa = PBXGroup;
+			children = (
+				D209A736135D5D400003DE4B /* Images */,
+				D2BDAED713561D2900AE0270 /* Core */,
+				D2BDAECA13561B8300AE0270 /* Classes */,
+			);
+			path = TablePaste;
+			sourceTree = "<group>";
+		};
+		D2BDAECA13561B8300AE0270 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D15F9E1B19BE0C60006A65A6 /* JFHotkeyManager.h */,
+				D15F9E1C19BE0C60006A65A6 /* JFHotkeyManager.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D2BDAED713561D2900AE0270 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D2BDAEE2135621E400AE0270 /* Credits.rtf */,
+				D2BDAEE4135621E400AE0270 /* InfoPlist.strings */,
+				D2BDAEE6135621E400AE0270 /* MainMenu.xib */,
+				D2BDAEDF1356218900AE0270 /* main.m */,
+				D2BDAECE13561C2800AE0270 /* TablePaste-Info.plist */,
+				D2BDAECF13561C2800AE0270 /* TablePaste-Prefix.pch */,
+				D2BDAED013561C2800AE0270 /* TablePaste.xcdatamodeld */,
+				D2BDAED213561C2800AE0270 /* TablePasteAppDelegate.h */,
+				D2BDAED313561C2800AE0270 /* TablePasteAppDelegate.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXNativeTarget section */
+		D2BDAEA713561B6800AE0270 /* TablePaste */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2BDAEC813561B6900AE0270 /* Build configuration list for PBXNativeTarget "TablePaste" */;
+			buildPhases = (
+				D2BDAEA413561B6800AE0270 /* Sources */,
+				D2BDAEA513561B6800AE0270 /* Frameworks */,
+				D2BDAEA613561B6800AE0270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TablePaste;
+			productName = TablePaste;
+			productReference = D2BDAEA813561B6800AE0270 /* TablePaste.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
 /* Begin PBXProject section */
 		D29A1E6213561A98009BDEF5 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
 			buildConfigurationList = D29A1E6513561A98009BDEF5 /* Build configuration list for PBXProject "TablePaste" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -26,23 +170,143 @@
 				en,
 			);
 			mainGroup = D29A1E6013561A98009BDEF5;
+			productRefGroup = D2BDAEA913561B6800AE0270 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				D2BDAEA713561B6800AE0270 /* TablePaste */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2BDAEA613561B6800AE0270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BDAEB713561B6800AE0270 /* InfoPlist.strings in Resources */,
+				D2BDAEEA135621E400AE0270 /* Credits.rtf in Resources */,
+				D2BDAEEB135621E400AE0270 /* InfoPlist.strings in Resources */,
+				D2BDAEEC135621E400AE0270 /* MainMenu.xib in Resources */,
+				D209A73B135D5FCB0003DE4B /* StatusItemIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2BDAEA413561B6800AE0270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BDAED513561C2800AE0270 /* TablePaste.xcdatamodeld in Sources */,
+				D2BDAED613561C2800AE0270 /* TablePasteAppDelegate.m in Sources */,
+				D2BDAEE01356218900AE0270 /* main.m in Sources */,
+				D15F9E1D19BE0C60006A65A6 /* JFHotkeyManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D2BDAEB513561B6800AE0270 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = InfoPlist.strings;
+			path = /Users/Russ/src/iOS/FNB/TablePaste/TablePaste;
+			sourceTree = "<absolute>";
+		};
+		D2BDAEE2135621E400AE0270 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BDAEE3135621E400AE0270 /* en */,
+			);
+			name = Credits.rtf;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		D2BDAEE4135621E400AE0270 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BDAEE5135621E400AE0270 /* en */,
+			);
+			name = InfoPlist.strings;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		D2BDAEE6135621E400AE0270 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2BDAEE7135621E400AE0270 /* en */,
+			);
+			name = MainMenu.xib;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D29A1E6713561A98009BDEF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
 		D29A1E6813561A98009BDEF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+			};
+			name = Release;
+		};
+		D2BDAEC613561B6900AE0270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablePaste/TablePaste-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TablePaste/TablePaste-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D2BDAEC713561B6900AE0270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TablePaste/TablePaste-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "TablePaste/TablePaste-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -58,7 +322,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		D2BDAEC813561B6900AE0270 /* Build configuration list for PBXNativeTarget "TablePaste" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2BDAEC613561B6900AE0270 /* Debug */,
+				D2BDAEC713561B6900AE0270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2BDAED013561C2800AE0270 /* TablePaste.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2BDAED113561C2800AE0270 /* TablePaste.xcdatamodel */,
+			);
+			currentVersion = D2BDAED113561C2800AE0270 /* TablePaste.xcdatamodel */;
+			path = TablePaste.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D29A1E6213561A98009BDEF5 /* Project object */;
 }
