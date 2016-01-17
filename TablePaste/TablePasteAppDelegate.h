@@ -3,7 +3,7 @@
 //  TablePaste
 //
 //  Created by Russ Galloway on 4/13/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Russ Galloway. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
