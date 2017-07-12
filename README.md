@@ -1,30 +1,23 @@
 # TablePaste for OS X
 
----
-
-© 2011 Russ Galloway
-
-Released under the MIT License.
-
-TablePaste lets you copy comma delimited data to the clipboard and paste it as a styled HTML table.
-
-WHY?  I use DbVisualizer to query various database flavors daily.  DbVisualizer's query results grid has the option to select and copy the results as tab delimited data with column headers.   I would often want to paste that data in an email, but the only way I was aware of to get that tab delimited data in a formatted table was to paste it to Excel, copy it again then paste it in the email.  At the time I could only run Excel by running it in my Windows virtual machine, so it was very inconvenient.
-
-When the TablePaste paste hotkey is pressed, it takes tab delimited data from the clipboard, replaces it with a styled HTML table, then performs the paste operation.
+TablePaste lets you copy tab delimited data to the clipboard and paste it as a styled HTML table.
 
 ---
 
-## Installation and Running TablePaste
+WHY?  I use [DBeaver](dbeaver.jkiss.org) to bounce queries off various types of databases.  DBeaver's query results grid has an option to select and copy the results as tab delimited data with column headers.  I often need to paste data into emails for client's and co-workers to review, but for years my only option was to use Excel as a copy/paste-copy/paste go-between.  That mostly worked but required an extra step, and I didn't always end up with a cleanly formatted table without even more effort... thus TablePaste.
 
-Place `TablePaste.app` in the `/Applications` folder and double click to run it.
+When the TablePaste SHIFT+ALT+CMD+T hotkey is pressed, it takes tab delimited data from the clipboard, replaces it with a styled HTML table, then performs the paste operation.
 
-Copy tab delimited data, such as:
+At some point I'd like to throw in a few more features, but it has worked as-is for so long I've just never got around to it.  It's an old slapped together utility, so don't expect academically architected code purity.
 
-FistName  LastName  Age
-FName1  LName1  20
-FName2  LName2  30
-FName3  LName3  40
+---
 
-Press SHIFT+ALT+CMD+T to paste it as a styled HTML table, which looks like:
+## Installation
 
-...
+Place `TablePaste.app` in the `/Applications` folder and double click to run it.  A grid icon will be added to the top menu bar.  Click the icon to close the app.
+
+---
+
+## Credits
+
+TablePaste uses [JFHotkeyManager](https://github.com/jaz303/JFHotkeyManager) to handle registering the global hotkey.
